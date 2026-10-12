@@ -1,0 +1,10 @@
+{% load custom_tags %}
+<nav class="nav">
+    <ul>
+        {% for link in links %}
+        <li>
+            <a href="{{link.path}}" class="{{ link.path|display_active:pathname }}">{{ link.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

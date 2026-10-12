@@ -1,0 +1,16 @@
+{% load custom_tags %}
+<div class="card flex flex-row">
+    <img src="{{result.thumbnail }}" alt="{{ result.title }}" width="50" height="50" />
+    <div class="card-content">
+        <div>
+            {% autoescape on %}
+            <a href="{{ result.url }}" target="_blank">{{ result.title }}</a>
+            {% endautoescape %}
+            <span>{{result.section }}</span>
+        </div>
+        <div>
+            <p>- {{ result.author }}</p>
+            <p>{{ result.createdAt }}</p>
+        </div>
+    </div>
+</div>

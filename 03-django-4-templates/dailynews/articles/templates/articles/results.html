@@ -1,0 +1,19 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+{% load custom_tags %}
+{% include 'articles/includes/navigation.html' with links=links %}
+</header>
+{% load cache %}
+
+{% cache 500 results pathname %}
+
+<h2 class="subtitle my-5 text-center">{{ subtitle }} Stories</h2>
+<div class="container">
+  <!-- results -->
+  <!-- 1/ loop thru results & display -->
+  {{ results|display_length }}
+  {% for result in results %}
+  {% include 'articles/includes/card.html' with result=result %}
+  {% endfor %}
+</div>
+{% endcache %}
+{% endblock %}

@@ -1,0 +1,5 @@
+Django==6.1.2
+django-debug-toolbar
+Jinja2
+requests
+python-dotenv
