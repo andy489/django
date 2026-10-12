@@ -1,8 +1,6 @@
 # Django
 
-Learning material for the **Django 6: The Big Picture** course.
-
-Covers Django 6.x with Python 3.10+.
+Learning material for Django courses.
 
 ## Modules
 
@@ -10,6 +8,7 @@ Covers Django 6.x with Python 3.10+.
 |---|---|---|
 | 01 | [Django Big Picture](01-django-big-picture/) | Intro, application structure, choosing Django — notebook + travel blog demo |
 | 02 | [Django Fundamentals](02-fundamentals-django/) | Full Meeting Planner app — MVT, ORM, forms, auth — notebook + 8 module snapshots |
+| 03 | [Django 4 Templates](03-django-4-templates/) | DTL syntax, inheritance, composition, custom tags, caching, Jinja2 — notebook + Daily News demo |
 
 ## Prerequisites
 
