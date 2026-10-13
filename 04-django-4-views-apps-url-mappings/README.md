@@ -4,15 +4,14 @@
 
 ```
 04-django-4-views-apps-url-mappings/
-├── forumdjango/                              ← most complete demo project (module 08)
+├── forumdjango/                              ← complete demo project
 │   ├── manage.py
 │   ├── core/                                 ← project settings and root URL config
-│   └── forum/                                ← app with models, views, feeds, templates, i18n
+│   ├── forum/                                ← app with models, views, feeds, templates, i18n
+│   ├── requirements.txt
+│   └── README.md
 ├── django_4_views_apps_url_mappings.ipynb    ← self-contained Jupyter Notebook
 ├── assets/diagrams/                          ← architecture diagram PNGs
-├── extract_diagrams.py
-├── source_coverage.md
-├── 02/ … 08/                                 ← per-module slide PDFs and incremental demo snapshots
 └── README.md                                 ← this file
 ```
 
