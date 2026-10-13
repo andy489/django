@@ -36,7 +36,7 @@ A self-contained Jupyter notebook covering Django's form and ModelForm system.
 ## Requirements
 
 ```bash
-pip install django pillow matplotlib jupyterlab
+pip install django jupyterlab
 ```
 
 - Python 3.10+
