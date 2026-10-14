@@ -12,6 +12,7 @@ Learning material for Django courses.
 | 04 | [Django 4 Views, Apps, and URL Mappings](04-django-4-views-apps-url-mappings/) | MVT architecture, URL mappings, CBVs, sessions, messages, flatpages, signals, feeds, i18n — notebook + complete forum demo |
 | 05 | [Working with Django Models](05-models-django/) | ORM, model fields, relationships, QuerySets, custom managers, migrations, optimization — notebook + Carved Rock Fitness demo |
 | 06 | [Django 4 Forms and ModelForms](06-django-forms-modelforms/) | Form lifecycle, validation chain, ModelForms, CSRF, custom validators, widgets, error handling — notebook + diagrams |
+| 07 | [Django 4 Testing](07-django-testing/) | TDD, test case hierarchy, models/forms/views testing, fixtures, transactions, Selenium integration — notebook + diagram |
 
 ## Prerequisites
 
