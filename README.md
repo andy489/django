@@ -14,6 +14,8 @@ Learning material for Django courses.
 | 06 | [Django 4 Forms and ModelForms](06-django-forms-modelforms/) | Form lifecycle, validation chain, ModelForms, CSRF, custom validators, widgets, error handling — notebook + diagrams |
 | 07 | [Django 4 Testing](07-django-testing/) | TDD, test case hierarchy, models/forms/views testing, fixtures, transactions, Selenium integration — notebook + diagram |
 | 08 | [Django 4 OWASP Secure Coding](08-django-4-owasp-secure-coding/) | OWASP Top 10, access control, authentication, input validation, sensitive data, API security, hardening — notebook + dot_trade demo |
+| 09 | [Django 4 Security and Performance](09-django-4-security-performance/) | SSL/HTTPS, CSRF, SQLi, clickjacking, host headers, caching, query optimization, template performance — notebook + diagrams |
+| 10 | [Django Deployment and Maintenance](10-deployment-maintenance-django/) | Environment configuration, deployment options, error handling, logging, Django/Python upgrades — notebook + diagrams |
 
 ## Prerequisites
 
